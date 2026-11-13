@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#080d19">
+  <meta name="description" content="Mayank Gaming AI — Free Fire and Craftland assistant">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Mayank Gaming AI</title>
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="brand-mark">✦</div>
+      <div><h1>MAYANK <span>GAMING AI</span></h1><p><i></i> FREE FIRE × CRAFTLAND ASSISTANT</p></div>
+      <button id="installBtn" class="install hidden">Install</button>
+    </header>
+    <section class="hero">
+      <div class="eyebrow">YOUR GAMING SIDEKICK</div>
+      <h2>Ready to <span>level up?</span></h2>
+      <p>Ideas, building help and creator tools — all in one place.</p>
+    </section>
+    <section class="tools" aria-label="Quick prompts">
+      <button class="tool" data-prompt="Give me 3 original Free Fire Craftland map ideas that are possible to build on mobile."><b>▦</b><span>Craftland<br>Map Ideas</span></button>
+      <button class="tool" data-prompt="Help me plan a Craftland map step by step using only a phone."><b>⌘</b><span>Build<br>Planner</span></button>
+      <button class="tool" data-prompt="Explain a simple Craftland game logic or script idea in beginner-friendly steps."><b>⌁</b><span>Logic &<br>Scripts</span></button>
+      <button class="tool" data-prompt="Create a catchy YouTube title, description and hashtags for my Free Fire gaming video."><b>▶</b><span>YouTube<br>Creator</span></button>
+    </section>
+    <section class="chat-card">
+      <div class="chat-head"><div><strong>AI CHAT</strong><small>Ask in Hindi, Hinglish or English</small></div><button id="clearBtn" class="clear">Clear</button></div>
+      <div id="messages" class="messages">
+        <div class="bubble assistant"><b>Hey, gamer! 🎮</b><br>Main tumhara Free Fire aur Craftland assistant hoon. Map idea, building plan, scripts ya YouTube content — kya banana hai?</div>
+      </div>
+      <form id="chatForm" class="composer">
+        <textarea id="messageInput" rows="1" maxlength="4000" placeholder="Ask your gaming question..." aria-label="Your message"></textarea>
+        <button id="sendBtn" type="submit" aria-label="Send">➤</button>
+      </form>
+      <div class="fineprint">AI replies may be inaccurate. Verify game features in your own editor.</div>
+    </section>
+    <footer>MADE FOR MAYANK <span>•</span> GAMING MODE ON</footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

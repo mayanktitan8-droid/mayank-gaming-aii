@@ -1,0 +1,17 @@
+{
+  "name": "Mayank Gaming AI",
+  "short_name": "Gaming AI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080d19",
+  "theme_color": "#080d19",
+  "description": "Free Fire and Craftland gaming assistant",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
